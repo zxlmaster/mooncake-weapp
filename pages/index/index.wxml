@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="canvas-container">
+    <audio src="{{audio.src}}" id="dice-audio"></audio>
+    <image src="{{canvas.src}}"></image>
+    <canvas canvas-id="dice-canvas" class="dice-canvas"></canvas>
+  </view>
+
+  <view>
+    <button class="dice-btn" bindtap="throwDice">{{buttonText}}</button>
+  </view>
+</view>
